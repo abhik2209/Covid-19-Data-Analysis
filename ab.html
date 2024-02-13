@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_22947095831a4fcbaed99292eb9ebf4e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_22947095831a4fcbaed99292eb9ebf4e" ></div>
+        
+</body>
+<script>    
+    
+            var map_22947095831a4fcbaed99292eb9ebf4e = L.map(
+                "map_22947095831a4fcbaed99292eb9ebf4e",
+                {
+                    center: [21.7679, 78.8718],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7939ef06c0bb4c1faaf4393cdfc9853e = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_22947095831a4fcbaed99292eb9ebf4e);
+        
+    
+            var marker_66430f0ae73d4a2f84461e242072b8e3 = L.marker(
+                [19.7515, 75.7139],
+                {"radious": 0.8}
+            ).addTo(map_22947095831a4fcbaed99292eb9ebf4e);
+        
+    
+            var icon_0996c92f459c474b84a4f065524f033a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_66430f0ae73d4a2f84461e242072b8e3.setIcon(icon_0996c92f459c474b84a4f065524f033a);
+        
+    
+        var popup_7e05d812a2dd4fd48af2ece92e0f4218 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec5e0d2d3086468292e8edee6f7b5b7c = $(`<div id="html_ec5e0d2d3086468292e8edee6f7b5b7c" style="width: 100.0%; height: 100.0%;"><strong>State</strong>: maharashtra</div>`)[0];
+            popup_7e05d812a2dd4fd48af2ece92e0f4218.setContent(html_ec5e0d2d3086468292e8edee6f7b5b7c);
+        
+
+        marker_66430f0ae73d4a2f84461e242072b8e3.bindPopup(popup_7e05d812a2dd4fd48af2ece92e0f4218)
+        ;
+
+        
+    
+    
+            marker_66430f0ae73d4a2f84461e242072b8e3.bindTooltip(
+                `<div>
+                     Click here to State Name
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_592f29a8be9748f6a057e8282edb6190 = L.marker(
+                [22.9868, 87.855],
+                {"radious": 0.8}
+            ).addTo(map_22947095831a4fcbaed99292eb9ebf4e);
+        
+    
+            var icon_a02f02bbc1c6489a802c22b5e707edcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_592f29a8be9748f6a057e8282edb6190.setIcon(icon_a02f02bbc1c6489a802c22b5e707edcd);
+        
+    
+        var popup_a23ea103f2be46c2a173c1c9b6aa20ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be9b06de9c454497b1938b6ee2c42e89 = $(`<div id="html_be9b06de9c454497b1938b6ee2c42e89" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Westbengal</div>`)[0];
+            popup_a23ea103f2be46c2a173c1c9b6aa20ff.setContent(html_be9b06de9c454497b1938b6ee2c42e89);
+        
+
+        marker_592f29a8be9748f6a057e8282edb6190.bindPopup(popup_a23ea103f2be46c2a173c1c9b6aa20ff)
+        ;
+
+        
+    
+    
+            marker_592f29a8be9748f6a057e8282edb6190.bindTooltip(
+                `<div>
+                     Click here to State Name
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba1177a36e91499489b739bf83c27995 = L.marker(
+                [18.1124, 79.0193],
+                {"radious": 0.8}
+            ).addTo(map_22947095831a4fcbaed99292eb9ebf4e);
+        
+    
+            var icon_0ef98f06a7ef44e4bc3af17398437fed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ba1177a36e91499489b739bf83c27995.setIcon(icon_0ef98f06a7ef44e4bc3af17398437fed);
+        
+    
+        var popup_1ce78f0a19a6417a933a90a64d65fd19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bb2611af12d4dd08fb2de2460200c3c = $(`<div id="html_6bb2611af12d4dd08fb2de2460200c3c" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Telanganana</div>`)[0];
+            popup_1ce78f0a19a6417a933a90a64d65fd19.setContent(html_6bb2611af12d4dd08fb2de2460200c3c);
+        
+
+        marker_ba1177a36e91499489b739bf83c27995.bindPopup(popup_1ce78f0a19a6417a933a90a64d65fd19)
+        ;
+
+        
+    
+    
+            marker_ba1177a36e91499489b739bf83c27995.bindTooltip(
+                `<div>
+                     Click here to State Name
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e99c64694a6946f180c46aadf2a844be = L.marker(
+                [25.0961, 85.3131],
+                {"radious": 0.8}
+            ).addTo(map_22947095831a4fcbaed99292eb9ebf4e);
+        
+    
+            var icon_c5297a28e2d9438293fe7b86e845ffad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e99c64694a6946f180c46aadf2a844be.setIcon(icon_c5297a28e2d9438293fe7b86e845ffad);
+        
+    
+        var popup_a52cbc6199ac46e2a22fb07c8d9ccceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c72ecd01fcf49d29d0e8519294a82d9 = $(`<div id="html_0c72ecd01fcf49d29d0e8519294a82d9" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Bihar</div>`)[0];
+            popup_a52cbc6199ac46e2a22fb07c8d9ccceb.setContent(html_0c72ecd01fcf49d29d0e8519294a82d9);
+        
+
+        marker_e99c64694a6946f180c46aadf2a844be.bindPopup(popup_a52cbc6199ac46e2a22fb07c8d9ccceb)
+        ;
+
+        
+    
+    
+            marker_e99c64694a6946f180c46aadf2a844be.bindTooltip(
+                `<div>
+                     Click here to State Name
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2342821eaf9b4f7dbe233def97c1e661 = L.marker(
+                [22.2587, 71.1924],
+                {"radious": 0.8}
+            ).addTo(map_22947095831a4fcbaed99292eb9ebf4e);
+        
+    
+            var icon_660514b25aca437785f9853c0d51a0d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2342821eaf9b4f7dbe233def97c1e661.setIcon(icon_660514b25aca437785f9853c0d51a0d4);
+        
+    
+        var popup_554ad3e65733433d99563ea300552aef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0bb859cb66342268c4c50926b345a5a = $(`<div id="html_f0bb859cb66342268c4c50926b345a5a" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Gujrat</div>`)[0];
+            popup_554ad3e65733433d99563ea300552aef.setContent(html_f0bb859cb66342268c4c50926b345a5a);
+        
+
+        marker_2342821eaf9b4f7dbe233def97c1e661.bindPopup(popup_554ad3e65733433d99563ea300552aef)
+        ;
+
+        
+    
+    
+            marker_2342821eaf9b4f7dbe233def97c1e661.bindTooltip(
+                `<div>
+                     Click here to State Name
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
